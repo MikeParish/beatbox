@@ -44,4 +44,5 @@ while True:
         #hihat
         pygame.mixer.Channel(2).play(pygame.mixer.Sound("drum_cymbal_closed.wav"))
         print("hihat = {}".format(swt_val_2))
+    #need to figure out a better way to debounce
     time.sleep(delay)
